@@ -1,0 +1,10 @@
+/**
+*scoreStar
+*/
+.star-wrap {
+  & img{
+		width: 0.26rem;
+		height: 0.24rem;
+		margin-right: 0.1rem;
+	}
+}

@@ -1,0 +1,11 @@
+.demo-wrap {
+	padding: 0 0.3rem;
+
+	& .title {
+		font-size: 0.3rem;
+	}
+
+	& .btn {
+		margin-top: 0.1rem;
+	}
+}

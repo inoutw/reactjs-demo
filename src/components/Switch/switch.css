@@ -1,0 +1,104 @@
+.rc-switch {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width:1.43rem;
+    height:0.5rem;
+    border-radius:0.25rem;
+    line-height: 0.48rem;
+    padding: 0;
+    vertical-align: middle;
+    border: 1px solid #41D282;
+    background-color: #41D282;
+    cursor: pointer;
+    font-size: 0.22rem;
+    transition: all 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+    & .rc-switch-inner {
+      color: #fff;
+      font-size: 0.22rem;
+      position: absolute;
+      left: 0.8rem;
+      top: 0;
+    }
+    &::after {
+      position: absolute;
+      width:0.74rem;
+      height:0.46rem;
+      background:rgba(255,255,255,1);
+      border-radius:0.23rem;
+      left: 0.02rem;
+      top: 0.01rem;
+      content: " ";
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      transition: left 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+      -webkit-animation-timing-function: cubic-bezier(0.35, 0, 0.25, 1);
+      animation-timing-function: cubic-bezier(0.35, 0, 0.25, 1);
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+      -webkit-animation-name: rcSwitchOff;
+      animation-name: rcSwitchOff;
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px tint(#2db7f5, 80%);
+      outline: none;
+    }
+    &.rc-switch-checked {
+      border: 1px solid #41D282;
+      background-color: #41D282;
+    }
+    &.rc-switch-checked .rc-switch-inner{
+      left: 0.08rem;
+    }
+    &.rc-switch-checked::after{
+      left: 0.67rem;
+    }
+    & .rc-switch-disabled{
+     cursor: no-drop;
+     background: #ccc;
+     border-color: #ccc;
+    }
+    & .rc-switch-disabled::after{
+     background: #41D282;
+     animation-name: none;
+     cursor: no-drop;
+    }
+
+    & .rc-switch-disabled:hover::after{
+     transform: scale(1);
+     animation-name: none;
+    }
+
+    & .rc-switch-label {
+      display: inline-block;
+      line-height: 20px;
+      font-size: 14px;
+      padding-left: 10px;
+      vertical-align: middle;
+      white-space: normal;
+      pointer-events: none;
+      user-select: text;
+    }
+}
+@keyframes rcSwitchOn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes rcSwitchOff {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

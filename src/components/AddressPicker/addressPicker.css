@@ -1,0 +1,124 @@
+.address-picker {
+  background-color: #fff;
+  height: 11rem;
+  width: 100%;
+  border-top-left-radius: 0.12rem;
+  border-top-right-radius: 0.12rem;
+
+  & .header {
+    padding-top: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 100%;
+  }
+  & .headerTitle {
+    font-size: 0.36rem;
+    color: #1e1e1e;
+    line-height: 0.5rem;
+  }
+  & .headerClose {
+    position: absolute;
+    padding: 0.3rem;
+    top: 0;
+    right: 0;
+  }
+  & .itemContainer {
+    display: flex;
+    margin: 0 0.4rem;
+    padding: 0.25rem 0;
+    flex-direction: row;
+    margin-bottom: 0.1rem;
+    border-bottom: #e6e6e6 1px solid;
+    align-items: center;
+  }
+  & .pinyin {
+    font-size: 0.28rem;
+    color: #9e9e9e;
+    width: 0.52rem;
+    margin-top: -0.16rem;
+  }
+  & .text {
+    font-size: 0.32rem;
+    color: #000;
+    text-align: left;
+    margin-top: -0.16rem;
+  }
+  & .hotCityContainer {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.4rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  & .hotCityItem {
+    width: 22%;
+    margin-bottom: 0.3rem;
+    border-radius: 0.25rem;
+    border: 1px solid #999;
+  }
+  & .hotCityItemFoucs {
+    border-width: 0;
+    background-color: #3fcc7e;
+  }
+  & .hotCityItemTextFoucs {
+    color: #fff;
+  }
+  & .hotCityItemText {
+    height: 0.5rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #5a5a5b;
+    line-height: 0.5rem;
+  }
+  & .title {
+    color: #9e9e9e;
+    font-size: 0.28rem;
+    margin-left: 0.4rem;
+    text-align: left;
+  }
+
+  & .textFocus {
+    color: #3fcc7e;
+  }
+  & .stepContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0.4rem;
+  }
+  & .contentLeft {
+    display: flex;
+    width: 0.18rem;
+    align-items: center;
+    margin-right: 0.4rem;
+    flex-direction: column;
+  }
+  & .contentPoint {
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    border: #3fcc7e 1px solid;
+  }
+  & .contentPointFoucs {
+    background-color: #3fcc7e;
+  }
+  & .contentLine {
+    width: 1px;
+    height: 0.66rem;
+    background-color: #3fcc7e;
+  }
+  & .stepwrap {
+    /* margin-top: 0.98rem; */
+    margin-bottom: 0.6rem;
+    padding-top: 0.98rem;
+  }
+  & .topTitle {
+    margin-bottom: 0.16rem;
+  }
+}

@@ -1,0 +1,47 @@
+/**
+*header
+*/
+.header-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.06rem;
+  background: #fff;
+  box-shadow: 0px 5px 18px 0px rgba(237, 237, 237, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0 0.32rem;
+  /* font-size: 0.3rem; */
+  & .leftName {
+    display: flex;
+    align-items: center;
+  }
+  & .leftName .logo {
+    width: 0.78rem;
+    height: 0.78rem;
+    align-items: center;
+  }
+  & .leftName .appName {
+    font-size: 0.3rem;
+    color: #1f1f1f;
+    margin-left: 0.13rem;
+  }
+  & .rightPart {
+    display: flex;
+    align-items: center;
+  }
+  & .openBtn {
+    width: 1.2rem;
+    height: 0.56rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.56rem;
+    background: #41d283;
+    border-radius: 0.28rem;
+    font-size: 0.3rem;
+  }
+}

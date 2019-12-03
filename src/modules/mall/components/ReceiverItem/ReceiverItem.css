@@ -1,0 +1,104 @@
+.receiver-item {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 1.68rem;
+  padding-left: 0.32rem;
+  display: flex;
+  border-bottom: 1px #e6e6e6 solid;
+
+  & .activeItem {
+    border-left-width: 0.06rem;
+    border-left: 0.06rem solid #41d282;
+  }
+  & .defaultItem {
+    border-left-width: 0.06rem;
+    border-left-color: #41d282;
+  }
+  & .borderBottom {
+    background-color: #f6f8fa;
+    height: 0.2rem;
+    width: 100%;
+  }
+  & .listContainer {
+    background-color: #fff;
+  }
+  & .locIcon {
+    width: 0.3rem;
+    height: 0.3rem;
+    /* color: #41d282;
+		font-size: 0.4rem; */
+    /* display: inline-block; */
+  }
+  & .defaultTxtWrap {
+    border-top-left-radius: 0.24rem;
+    border-top-right-radius: 0.24rem;
+    border-bottom-right-radius: 0.24rem;
+    overflow: hidden;
+    margin-left: 0.16rem;
+    background-color: #41d282;
+  }
+  & .defaultTxt {
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.33rem;
+    background-color: #41d282;
+    padding: 0.4rem 0.16rem;
+  }
+  & .smallGrayTxt {
+    font-size: 0.24rem;
+    color: #666666;
+    line-height: 0.33rem;
+    margin-right: 0.6rem;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 5rem;
+  }
+  & .receiverAddrTxt {
+    font-size: 0.36rem;
+    color: #1f1f1f;
+    line-height: 0.5rem;
+    display: inline-block;
+  }
+  & .textOverflow {
+    max-width: 3.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  & .addrBtmWrap {
+    margin-top: 0.16rem;
+    display: flex;
+  }
+  & .editWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.34rem;
+    margin: 0.2rem 0;
+    padding: 0.22rem 0;
+    border-left: #e6e6e6 solid 1px;
+    width: 1rem;
+  }
+  & .editIcon {
+    /* font-size: 0.38rem;
+		color: #9e9e9e; */
+    width: 0.36rem;
+    height: 0.38rem;
+  }
+
+  & .receiver-item-left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 0.32rem;
+  }
+}
+
+.activeItem {
+  border-left-width: 0.06rem;
+  border-left: 0.06rem solid #41d282;
+}

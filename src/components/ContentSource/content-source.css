@@ -1,0 +1,15 @@
+.content-source {
+	padding: 0 0.32rem 0.5rem;
+	
+	& .imgSource {
+    width: 6.86rem;
+    margin-top: .32;
+    border-radius: 0.12rem;
+  },
+  & .txtSource {
+    font-size: .28rem;
+    color: #666;
+    line-height: .48rem;
+    margin-top: 0.32rem;
+  },
+}

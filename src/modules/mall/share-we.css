@@ -1,0 +1,42 @@
+.register-wrap {
+  position: fixed;
+
+  & .am-modal-transparent {
+    height: 6.6rem;
+    width: 6.56rem;
+  }
+}
+.am-icon-lg {
+  width: 0.46rem;
+  height: 0.46rem;
+}
+.good-share-we {
+  & .shelve-down {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    height: 0.5rem;
+    width: 100%;
+    font-size: 0.26rem;
+    color: #ffffff;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 0.5rem;
+    z-index: 89;
+  }
+  & .sercve-product-sku #skuModal {
+    bottom: 0;
+  }
+}
+.geetest_holder.geetest_mobile.geetest_ant.geetest_popup .geetest_popup_box {
+  max-width: 5rem !important;
+}
+
+/* .good-wrap.good-share-we {
+  & .foot-add-cart-cont {
+    z-index: 999;
+  }
+  & .but-now-wechat {
+    z-index: 999;
+  }
+} */

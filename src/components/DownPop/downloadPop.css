@@ -1,0 +1,27 @@
+.DownloadPop-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  & .open_app_fail_tips {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+  }
+  & .open_app_fail_tips .tips_main {
+    position: absolute;
+    right: 30px;
+    top: 1.6px;
+    top: 0.1rem;
+    width: 93.12px;
+    width: 5.82rem;
+    height: 40.32px;
+    height: 2.52rem;
+    background: url(../../assets/image/common/open_app_fail_tips.png) 100% 0 no-repeat;
+    background-size: cover;
+  }
+}

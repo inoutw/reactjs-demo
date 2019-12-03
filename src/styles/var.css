@@ -1,0 +1,17 @@
+:root {
+  --theme-color: #996ce5;
+
+  --assist-color: #996ce5;
+
+  /* 主要文字颜色 */
+  --text-primary-color: #000;
+
+  /* 次要文字颜色 */
+  --text-secondary-color: #333;
+
+  /* 辅助文字颜色 */
+  --text-assist-color: #666;
+
+  /* 提示文字颜色 */
+  --text-tips-color: #999;
+}
