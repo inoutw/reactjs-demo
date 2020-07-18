@@ -15,7 +15,7 @@
     "axios": "^0.19.0",
     "echarts": "^4.2.1",
     "echarts-for-react": "^2.0.15-beta.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "postcss-px2rem": "^0.3.0",
     "prop-types": "^15.7.2",
     "rc-switch": "^1.9.0",
